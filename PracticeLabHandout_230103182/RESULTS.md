@@ -68,6 +68,7 @@ experiment would need to run with Turbo Boost disabled (Windows power plan: maxi
 
 ```
 pip install psutil
+cd PracticeLabHandout_230103182
 python exp_a_serial.py
 python exp_b_contention.py
 python exp_c_fixed.py
