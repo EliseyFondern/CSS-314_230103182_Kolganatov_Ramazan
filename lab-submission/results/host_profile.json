@@ -1,0 +1,557 @@
+{
+  "timestamp_utc": "2026-10-30T05:11:36Z",
+  "hostname": "Rio",
+  "cpu": {
+    "model_name": "13th Gen Intel(R) Core(TM) i9-13900HX",
+    "microarchitecture": "Raptor Lake (Raptor Cove P-cores + Gracemont E-cores)",
+    "cpuid_family": 6,
+    "cpuid_model": 183,
+    "base_frequency_mhz": 2419,
+    "physical_cores": 24,
+    "logical_threads": 32,
+    "smt_enabled": true,
+    "cores_with_smt": 8,
+    "hybrid_core_topology_suspected": true
+  },
+  "cache": {
+    "L1d": {
+      "size_bytes": 49152,
+      "size_human": "48 KiB",
+      "instances": 24,
+      "total_bytes": 917504,
+      "variants": [
+        {
+          "size_bytes": 32768,
+          "size_human": "32 KiB",
+          "logical_cpus_sharing": 1,
+          "count": 16
+        },
+        {
+          "size_bytes": 49152,
+          "size_human": "48 KiB",
+          "logical_cpus_sharing": 2,
+          "count": 8
+        }
+      ]
+    },
+    "L1i": {
+      "size_bytes": 65536,
+      "size_human": "64 KiB",
+      "instances": 24,
+      "total_bytes": 1310720,
+      "variants": [
+        {
+          "size_bytes": 65536,
+          "size_human": "64 KiB",
+          "logical_cpus_sharing": 1,
+          "count": 16
+        },
+        {
+          "size_bytes": 32768,
+          "size_human": "32 KiB",
+          "logical_cpus_sharing": 2,
+          "count": 8
+        }
+      ]
+    },
+    "L2": {
+      "size_bytes": 4194304,
+      "size_human": "4 MiB",
+      "instances": 12,
+      "total_bytes": 33554432,
+      "variants": [
+        {
+          "size_bytes": 2097152,
+          "size_human": "2 MiB",
+          "logical_cpus_sharing": 2,
+          "count": 8
+        },
+        {
+          "size_bytes": 4194304,
+          "size_human": "4 MiB",
+          "logical_cpus_sharing": 4,
+          "count": 4
+        }
+      ]
+    },
+    "L3": {
+      "size_bytes": 37748736,
+      "size_human": "36 MiB",
+      "instances": 1,
+      "total_bytes": 37748736,
+      "variants": [
+        {
+          "size_bytes": 37748736,
+          "size_human": "36 MiB",
+          "logical_cpus_sharing": 32,
+          "count": 1
+        }
+      ]
+    },
+    "cache_line_bytes": 64
+  },
+  "memory": {
+    "mem_total_bytes": 16924753920,
+    "memory_modules": [
+      {
+        "Speed": 5600,
+        "ConfiguredClockSpeed": 4800,
+        "Capacity": 17179869184,
+        "SMBIOSMemoryType": 34
+      }
+    ]
+  },
+  "os": {
+    "system": "Windows",
+    "release": "11",
+    "version": "10.0.26200",
+    "kernel": "11",
+    "machine": "AMD64"
+  },
+  "python": {
+    "implementation": "CPython",
+    "version": "3.14.3",
+    "compiler": "MSC v.1944 64 bit (AMD64)",
+    "executable": "C:\\Users\\ramaz\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+    "numpy": "2.4.2",
+    "numba": "0.68.0"
+  },
+  "cross_checks": {
+    "psutil_physical_cores": 24,
+    "psutil_logical_threads": 32,
+    "psutil_freq_mhz": {
+      "current": 2200.0,
+      "min": 0.0,
+      "max": 2200.0
+    }
+  },
+  "raw_cache_instances": [
+    {
+      "level": 1,
+      "type": "Data",
+      "size": 49152,
+      "line": 64,
+      "sharing": 2
+    },
+    {
+      "level": 1,
+      "type": "Instruction",
+      "size": 32768,
+      "line": 64,
+      "sharing": 2
+    },
+    {
+      "level": 2,
+      "type": "Unified",
+      "size": 2097152,
+      "line": 64,
+      "sharing": 2
+    },
+    {
+      "level": 1,
+      "type": "Data",
+      "size": 49152,
+      "line": 64,
+      "sharing": 2
+    },
+    {
+      "level": 1,
+      "type": "Instruction",
+      "size": 32768,
+      "line": 64,
+      "sharing": 2
+    },
+    {
+      "level": 2,
+      "type": "Unified",
+      "size": 2097152,
+      "line": 64,
+      "sharing": 2
+    },
+    {
+      "level": 1,
+      "type": "Data",
+      "size": 49152,
+      "line": 64,
+      "sharing": 2
+    },
+    {
+      "level": 1,
+      "type": "Instruction",
+      "size": 32768,
+      "line": 64,
+      "sharing": 2
+    },
+    {
+      "level": 2,
+      "type": "Unified",
+      "size": 2097152,
+      "line": 64,
+      "sharing": 2
+    },
+    {
+      "level": 1,
+      "type": "Data",
+      "size": 49152,
+      "line": 64,
+      "sharing": 2
+    },
+    {
+      "level": 1,
+      "type": "Instruction",
+      "size": 32768,
+      "line": 64,
+      "sharing": 2
+    },
+    {
+      "level": 2,
+      "type": "Unified",
+      "size": 2097152,
+      "line": 64,
+      "sharing": 2
+    },
+    {
+      "level": 1,
+      "type": "Data",
+      "size": 49152,
+      "line": 64,
+      "sharing": 2
+    },
+    {
+      "level": 1,
+      "type": "Instruction",
+      "size": 32768,
+      "line": 64,
+      "sharing": 2
+    },
+    {
+      "level": 2,
+      "type": "Unified",
+      "size": 2097152,
+      "line": 64,
+      "sharing": 2
+    },
+    {
+      "level": 1,
+      "type": "Data",
+      "size": 49152,
+      "line": 64,
+      "sharing": 2
+    },
+    {
+      "level": 1,
+      "type": "Instruction",
+      "size": 32768,
+      "line": 64,
+      "sharing": 2
+    },
+    {
+      "level": 2,
+      "type": "Unified",
+      "size": 2097152,
+      "line": 64,
+      "sharing": 2
+    },
+    {
+      "level": 1,
+      "type": "Data",
+      "size": 49152,
+      "line": 64,
+      "sharing": 2
+    },
+    {
+      "level": 1,
+      "type": "Instruction",
+      "size": 32768,
+      "line": 64,
+      "sharing": 2
+    },
+    {
+      "level": 2,
+      "type": "Unified",
+      "size": 2097152,
+      "line": 64,
+      "sharing": 2
+    },
+    {
+      "level": 1,
+      "type": "Data",
+      "size": 49152,
+      "line": 64,
+      "sharing": 2
+    },
+    {
+      "level": 1,
+      "type": "Instruction",
+      "size": 32768,
+      "line": 64,
+      "sharing": 2
+    },
+    {
+      "level": 2,
+      "type": "Unified",
+      "size": 2097152,
+      "line": 64,
+      "sharing": 2
+    },
+    {
+      "level": 1,
+      "type": "Data",
+      "size": 32768,
+      "line": 64,
+      "sharing": 1
+    },
+    {
+      "level": 1,
+      "type": "Instruction",
+      "size": 65536,
+      "line": 64,
+      "sharing": 1
+    },
+    {
+      "level": 1,
+      "type": "Data",
+      "size": 32768,
+      "line": 64,
+      "sharing": 1
+    },
+    {
+      "level": 1,
+      "type": "Instruction",
+      "size": 65536,
+      "line": 64,
+      "sharing": 1
+    },
+    {
+      "level": 1,
+      "type": "Data",
+      "size": 32768,
+      "line": 64,
+      "sharing": 1
+    },
+    {
+      "level": 1,
+      "type": "Instruction",
+      "size": 65536,
+      "line": 64,
+      "sharing": 1
+    },
+    {
+      "level": 1,
+      "type": "Data",
+      "size": 32768,
+      "line": 64,
+      "sharing": 1
+    },
+    {
+      "level": 1,
+      "type": "Instruction",
+      "size": 65536,
+      "line": 64,
+      "sharing": 1
+    },
+    {
+      "level": 2,
+      "type": "Unified",
+      "size": 4194304,
+      "line": 64,
+      "sharing": 4
+    },
+    {
+      "level": 1,
+      "type": "Data",
+      "size": 32768,
+      "line": 64,
+      "sharing": 1
+    },
+    {
+      "level": 1,
+      "type": "Instruction",
+      "size": 65536,
+      "line": 64,
+      "sharing": 1
+    },
+    {
+      "level": 1,
+      "type": "Data",
+      "size": 32768,
+      "line": 64,
+      "sharing": 1
+    },
+    {
+      "level": 1,
+      "type": "Instruction",
+      "size": 65536,
+      "line": 64,
+      "sharing": 1
+    },
+    {
+      "level": 1,
+      "type": "Data",
+      "size": 32768,
+      "line": 64,
+      "sharing": 1
+    },
+    {
+      "level": 1,
+      "type": "Instruction",
+      "size": 65536,
+      "line": 64,
+      "sharing": 1
+    },
+    {
+      "level": 1,
+      "type": "Data",
+      "size": 32768,
+      "line": 64,
+      "sharing": 1
+    },
+    {
+      "level": 1,
+      "type": "Instruction",
+      "size": 65536,
+      "line": 64,
+      "sharing": 1
+    },
+    {
+      "level": 2,
+      "type": "Unified",
+      "size": 4194304,
+      "line": 64,
+      "sharing": 4
+    },
+    {
+      "level": 1,
+      "type": "Data",
+      "size": 32768,
+      "line": 64,
+      "sharing": 1
+    },
+    {
+      "level": 1,
+      "type": "Instruction",
+      "size": 65536,
+      "line": 64,
+      "sharing": 1
+    },
+    {
+      "level": 1,
+      "type": "Data",
+      "size": 32768,
+      "line": 64,
+      "sharing": 1
+    },
+    {
+      "level": 1,
+      "type": "Instruction",
+      "size": 65536,
+      "line": 64,
+      "sharing": 1
+    },
+    {
+      "level": 1,
+      "type": "Data",
+      "size": 32768,
+      "line": 64,
+      "sharing": 1
+    },
+    {
+      "level": 1,
+      "type": "Instruction",
+      "size": 65536,
+      "line": 64,
+      "sharing": 1
+    },
+    {
+      "level": 1,
+      "type": "Data",
+      "size": 32768,
+      "line": 64,
+      "sharing": 1
+    },
+    {
+      "level": 1,
+      "type": "Instruction",
+      "size": 65536,
+      "line": 64,
+      "sharing": 1
+    },
+    {
+      "level": 2,
+      "type": "Unified",
+      "size": 4194304,
+      "line": 64,
+      "sharing": 4
+    },
+    {
+      "level": 1,
+      "type": "Data",
+      "size": 32768,
+      "line": 64,
+      "sharing": 1
+    },
+    {
+      "level": 1,
+      "type": "Instruction",
+      "size": 65536,
+      "line": 64,
+      "sharing": 1
+    },
+    {
+      "level": 1,
+      "type": "Data",
+      "size": 32768,
+      "line": 64,
+      "sharing": 1
+    },
+    {
+      "level": 1,
+      "type": "Instruction",
+      "size": 65536,
+      "line": 64,
+      "sharing": 1
+    },
+    {
+      "level": 1,
+      "type": "Data",
+      "size": 32768,
+      "line": 64,
+      "sharing": 1
+    },
+    {
+      "level": 1,
+      "type": "Instruction",
+      "size": 65536,
+      "line": 64,
+      "sharing": 1
+    },
+    {
+      "level": 1,
+      "type": "Data",
+      "size": 32768,
+      "line": 64,
+      "sharing": 1
+    },
+    {
+      "level": 1,
+      "type": "Instruction",
+      "size": 65536,
+      "line": 64,
+      "sharing": 1
+    },
+    {
+      "level": 2,
+      "type": "Unified",
+      "size": 4194304,
+      "line": 64,
+      "sharing": 4
+    },
+    {
+      "level": 3,
+      "type": "Unified",
+      "size": 37748736,
+      "line": 64,
+      "sharing": 32
+    }
+  ]
+}
