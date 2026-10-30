@@ -1,0 +1,108 @@
+{
+  "student_id": "230103182",
+  "N": 1408,
+  "sweeps": 100,
+  "seed": 73101,
+  "reference_checksum": 995449.8203702366,
+  "reference_digest": "ce4c0a4426fff793106f4fc26d39206bd8bc88af233554f0beeb914362fca84b",
+  "strong": {
+    "1": {
+      "checksum": [
+        995449.8203702366
+      ],
+      "digest": [
+        "ce4c0a4426fff793106f4fc26d39206bd8bc88af233554f0beeb914362fca84b"
+      ],
+      "bitwise_match_reference": true
+    },
+    "2": {
+      "checksum": [
+        995449.8203702366
+      ],
+      "digest": [
+        "ce4c0a4426fff793106f4fc26d39206bd8bc88af233554f0beeb914362fca84b"
+      ],
+      "bitwise_match_reference": true
+    },
+    "4": {
+      "checksum": [
+        995449.8203702366
+      ],
+      "digest": [
+        "ce4c0a4426fff793106f4fc26d39206bd8bc88af233554f0beeb914362fca84b"
+      ],
+      "bitwise_match_reference": true
+    },
+    "8": {
+      "checksum": [
+        995449.8203702366
+      ],
+      "digest": [
+        "ce4c0a4426fff793106f4fc26d39206bd8bc88af233554f0beeb914362fca84b"
+      ],
+      "bitwise_match_reference": true
+    },
+    "16": {
+      "checksum": [
+        995449.8203702366
+      ],
+      "digest": [
+        "ce4c0a4426fff793106f4fc26d39206bd8bc88af233554f0beeb914362fca84b"
+      ],
+      "bitwise_match_reference": true
+    },
+    "24": {
+      "checksum": [
+        995449.8203702366
+      ],
+      "digest": [
+        "ce4c0a4426fff793106f4fc26d39206bd8bc88af233554f0beeb914362fca84b"
+      ],
+      "bitwise_match_reference": true
+    }
+  },
+  "weak": {
+    "1": {
+      "N": 1408,
+      "checksum": [
+        995449.8203702366
+      ],
+      "bitwise_match_reference": true
+    },
+    "2": {
+      "N": 1992,
+      "checksum": [
+        1989766.0923559885
+      ],
+      "bitwise_match_reference": true
+    },
+    "4": {
+      "N": 2816,
+      "checksum": [
+        3974323.760736732
+      ],
+      "bitwise_match_reference": true
+    },
+    "8": {
+      "N": 3983,
+      "checksum": [
+        7944067.19294128
+      ],
+      "bitwise_match_reference": true
+    },
+    "16": {
+      "N": 5632,
+      "checksum": [
+        15876227.831748081
+      ],
+      "bitwise_match_reference": true
+    },
+    "24": {
+      "N": 6898,
+      "checksum": [
+        23810733.645002503
+      ],
+      "bitwise_match_reference": true
+    }
+  }
+}

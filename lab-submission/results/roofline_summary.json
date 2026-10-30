@@ -1,0 +1,52 @@
+{
+  "kernel": "2-D 5-point Jacobi stencil, float64, double-buffered",
+  "flops_per_point": 4,
+  "arithmetic_intensity": {
+    "ideal_fused_kernel_with_write_allocate": {
+      "bytes_per_point": 24,
+      "AI_flop_per_byte": 0.1667
+    },
+    "ideal_fused_kernel_streaming_stores": {
+      "bytes_per_point": 16,
+      "AI_flop_per_byte": 0.25
+    },
+    "this_numpy_implementation": {
+      "bytes_per_point": 104,
+      "AI_flop_per_byte": 0.0385,
+      "derivation": "5 ufunc passes over the block: add(up,down)->d = 8+8+8, add(d,left) = 8+8+8, add(d,right) = 8+8+8, multiply(d,.25) = 8+8 -> 104 B/point (neighbour rows reuse cache, write-allocate ignored)"
+    }
+  },
+  "machine": {
+    "cpu": "13th Gen Intel(R) Core(TM) i9-13900HX",
+    "physical_cores": 24,
+    "frequency_ghz_used": 2.419,
+    "dp_flops_per_cycle_per_core": 16.0,
+    "peak_compute_GFLOPs": 928.9,
+    "peak_dram_bandwidth_GBps": 38.4,
+    "bandwidth_source": "1 channel(s) x 4800 MT/s x 8 B (from DIMM info)",
+    "ridge_point_flop_per_byte": 24.19,
+    "L2_bytes": 4194304,
+    "L3_bytes": 37748736
+  },
+  "working_set": {
+    "strong_scaling_bytes": 31719424,
+    "strong_scaling_MiB": 30.2,
+    "fits_in_L3": true,
+    "weak_scaling_max_bytes": 761318464,
+    "note": "Strong-scaling grids fit in L3, so traffic is served partly by the LLC rather than DRAM; the kernel is still bandwidth-bound (LLC bandwidth instead of DRAM bandwidth)."
+  },
+  "attainable_GFLOPs_at_ideal_AI": 6.4,
+  "attainable_GFLOPs_numpy_AI": 1.48,
+  "measured_best_strong": {
+    "P": 4,
+    "GFLOPs": 1.711,
+    "implied_bandwidth_GBps_numpy_traffic": 44.49,
+    "fraction_of_peak_compute_pct": 0.184
+  },
+  "amdahl": {
+    "least_squares_serial_fraction_s": 0.29503638284961603,
+    "S_max_asymptotic": 3.3894124864922617
+  },
+  "regime": "MEMORY-BANDWIDTH BOUND",
+  "conclusion": "AI = 0.167 FLOP/B (ideal) and 0.038 FLOP/B (numpy) are far below the ridge point 24.19 FLOP/B, so the stencil sits on the sloped (bandwidth) part of the roofline: adding cores helps only until the memory subsystem saturates, which is what limits the strong-scaling efficiency."
+}
