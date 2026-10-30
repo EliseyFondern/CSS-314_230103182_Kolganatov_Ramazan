@@ -1,0 +1,34 @@
+{
+  "student_id": "230103182",
+  "N": 1408,
+  "block_M": 704,
+  "engine": "numba",
+  "runs": 3,
+  "naive_ijk": {
+    "times_ns": [
+      482670300,
+      422102700,
+      414594900
+    ],
+    "median_s": 0.4221027,
+    "GFLOPs": 1.653216925643925
+  },
+  "interchanged_ikj": {
+    "times_ns": [
+      72879100,
+      72709700,
+      64883600
+    ],
+    "median_s": 0.0727097,
+    "GFLOPs": 9.597444742585928
+  },
+  "speedup_S": 5.805314834196813,
+  "verification": {
+    "max_abs_diff_ijk_vs_ikj": 0.0,
+    "within_1e-12": true,
+    "max_rel_diff_vs_numpy_matmul": 3.1873773500191877e-15,
+    "digest_ijk": "e6a5726258cad30e51f7b6a7d15d180f65ceae8b6bba82d26bc39d2093eaa4fd",
+    "digest_ikj": "e6a5726258cad30e51f7b6a7d15d180f65ceae8b6bba82d26bc39d2093eaa4fd"
+  },
+  "explanation": "i-j-k reads B[k,j] down a column: consecutive k are M*8 bytes apart, so every inner-loop iteration touches a new cache line and only 8 of 64 bytes are used. i-k-j hoists A[i,k] and streams rows of B and C with stride 1, so each 64-byte line serves 8 doubles, the hardware prefetcher is effective and the loop vectorizes."
+}
