@@ -1,0 +1,222 @@
+{
+  "student_id": "230103182",
+  "K": 5000000,
+  "runs": {
+    "numba/unpadded/P1": {
+      "totals": [
+        5000000,
+        5000000,
+        5000000
+      ],
+      "expected": 5000000,
+      "exact": true
+    },
+    "numba/unpadded/P2": {
+      "totals": [
+        10000000,
+        10000000,
+        10000000
+      ],
+      "expected": 10000000,
+      "exact": true
+    },
+    "numba/unpadded/P4": {
+      "totals": [
+        20000000,
+        20000000,
+        20000000
+      ],
+      "expected": 20000000,
+      "exact": true
+    },
+    "numba/unpadded/P8": {
+      "totals": [
+        40000000,
+        40000000,
+        40000000
+      ],
+      "expected": 40000000,
+      "exact": true
+    },
+    "numba/padded/P1": {
+      "totals": [
+        5000000,
+        5000000,
+        5000000
+      ],
+      "expected": 5000000,
+      "exact": true
+    },
+    "numba/padded/P2": {
+      "totals": [
+        10000000,
+        10000000,
+        10000000
+      ],
+      "expected": 10000000,
+      "exact": true
+    },
+    "numba/padded/P4": {
+      "totals": [
+        20000000,
+        20000000,
+        20000000
+      ],
+      "expected": 20000000,
+      "exact": true
+    },
+    "numba/padded/P8": {
+      "totals": [
+        40000000,
+        40000000,
+        40000000
+      ],
+      "expected": 40000000,
+      "exact": true
+    },
+    "numba/privatized/P1": {
+      "totals": [
+        5000000,
+        5000000,
+        5000000
+      ],
+      "expected": 5000000,
+      "exact": true
+    },
+    "numba/privatized/P2": {
+      "totals": [
+        10000000,
+        10000000,
+        10000000
+      ],
+      "expected": 10000000,
+      "exact": true
+    },
+    "numba/privatized/P4": {
+      "totals": [
+        20000000,
+        20000000,
+        20000000
+      ],
+      "expected": 20000000,
+      "exact": true
+    },
+    "numba/privatized/P8": {
+      "totals": [
+        40000000,
+        40000000,
+        40000000
+      ],
+      "expected": 40000000,
+      "exact": true
+    },
+    "python/unpadded/P1": {
+      "totals": [
+        5000000,
+        5000000,
+        5000000
+      ],
+      "expected": 5000000,
+      "exact": true
+    },
+    "python/unpadded/P2": {
+      "totals": [
+        10000000,
+        10000000,
+        10000000
+      ],
+      "expected": 10000000,
+      "exact": true
+    },
+    "python/unpadded/P4": {
+      "totals": [
+        20000000,
+        20000000,
+        20000000
+      ],
+      "expected": 20000000,
+      "exact": true
+    },
+    "python/unpadded/P8": {
+      "totals": [
+        40000000,
+        40000000,
+        40000000
+      ],
+      "expected": 40000000,
+      "exact": true
+    },
+    "python/padded/P1": {
+      "totals": [
+        5000000,
+        5000000,
+        5000000
+      ],
+      "expected": 5000000,
+      "exact": true
+    },
+    "python/padded/P2": {
+      "totals": [
+        10000000,
+        10000000,
+        10000000
+      ],
+      "expected": 10000000,
+      "exact": true
+    },
+    "python/padded/P4": {
+      "totals": [
+        20000000,
+        20000000,
+        20000000
+      ],
+      "expected": 20000000,
+      "exact": true
+    },
+    "python/padded/P8": {
+      "totals": [
+        40000000,
+        40000000,
+        40000000
+      ],
+      "expected": 40000000,
+      "exact": true
+    },
+    "python/privatized/P1": {
+      "totals": [
+        5000000,
+        5000000,
+        5000000
+      ],
+      "expected": 5000000,
+      "exact": true
+    },
+    "python/privatized/P2": {
+      "totals": [
+        10000000,
+        10000000,
+        10000000
+      ],
+      "expected": 10000000,
+      "exact": true
+    },
+    "python/privatized/P4": {
+      "totals": [
+        20000000,
+        20000000,
+        20000000
+      ],
+      "expected": 20000000,
+      "exact": true
+    },
+    "python/privatized/P8": {
+      "totals": [
+        40000000,
+        40000000,
+        40000000
+      ],
+      "expected": 40000000,
+      "exact": true
+    }
+  }
+}
